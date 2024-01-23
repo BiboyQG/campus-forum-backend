@@ -28,7 +28,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test
     username: root
-    password: wyb20030714
+    password: ${jwt_key}
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   configuration:
